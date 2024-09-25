@@ -22,10 +22,10 @@
     "clean": "gts clean",
     "compile": "tsc",
     "fix": "gts fix",
-    "prepare": "yarn run compile",
-    "pretest": "yarn run compile",
-    "posttest": "yarn run lint",
-    "prepublish": "yarn run compile",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint",
+    "prepublish": "npm run compile",
     "dev": "nodemon -q --watch src --ext ts,js,json,yaml,yml --exec 'yarn run compile && node .'"
   },
   "files": [
