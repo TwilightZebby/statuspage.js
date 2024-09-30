@@ -1,3 +1,5 @@
+Forked from [benricheson101/statuspage.js](https://github.com/Benricheson101/statuspage.js)
+
 <h1 style="align: center">statuspage.js 📈</h1>
 
 A Node.js implementation of [statuspage.io](https://statuspage.io) 's API.
